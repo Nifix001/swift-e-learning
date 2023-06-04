@@ -2,12 +2,13 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import LayoutPage from "./layouts/LayoutPage";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <LayoutPage />,
     loader: rootLoader,
     children: [
     ],
