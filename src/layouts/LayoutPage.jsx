@@ -5,6 +5,7 @@ const LayoutPage = () => {
     <div classname="layout">
     <img src={logo} alt="logo" />
       
+      <nav></nav>
     </div>
   )
 }
