@@ -1,4 +1,5 @@
 import logo from "../assets/swift logo.jpg";
+
 const LayoutPage = () => {
   return (
     <div classname="layout">
