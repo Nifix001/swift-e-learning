@@ -1,6 +1,6 @@
 const LayoutPage = () => {
   return (
-    <div>
+    <div classname="layout">
       
     </div>
   )
