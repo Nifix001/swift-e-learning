@@ -6,6 +6,10 @@ const LayoutPage = () => {
     <img src={logo} alt="logo" />
       
       <nav></nav>
+
+      <main>
+        <Outlet />
+      </main>
     </div>
   )
 }
