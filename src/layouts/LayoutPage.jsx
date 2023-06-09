@@ -4,11 +4,13 @@ const LayoutPage = () => {
   return (
     <div classname="layout">
     <img src={logo} alt="logo" />
-      
-      <nav></nav>
+      Hello
+      <nav>
+        <NavLink></NavLink>
+      </nav>
 
       <main>
-        <Outlet />
+        
       </main>
     </div>
   )
