@@ -7,6 +7,9 @@ const LayoutPage = () => {
     <img src={logo} alt="logo" />
       <nav>
         <NavLink>Home</NavLink>
+        <NavLink>Courses</NavLink>
+        <NavLink>Pricing</NavLink>
+        <NavLink>Testimonials</NavLink>
       </nav>
 
       <main>
