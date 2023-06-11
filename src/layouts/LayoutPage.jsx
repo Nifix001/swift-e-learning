@@ -5,9 +5,8 @@ const LayoutPage = () => {
   return (
     <div classname="layout">
     <img src={logo} alt="logo" />
-      Hello
       <nav>
-        <NavLink></NavLink>
+        <NavLink>Home</NavLink>
       </nav>
 
       <main>
