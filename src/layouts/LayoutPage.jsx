@@ -1,3 +1,4 @@
+import { NavLink, Outlet } from "react-router-dom";
 import logo from "../assets/swift logo.jpg";
 
 const LayoutPage = () => {
@@ -10,7 +11,7 @@ const LayoutPage = () => {
       </nav>
 
       <main>
-        
+        <Outlet/>
       </main>
     </div>
   )
