@@ -6,7 +6,7 @@ const LayoutPage = () => {
     <div classname="layout">
     <img src={logo} alt="logo" />
       <nav>
-        <NavLink>Home</NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink>Courses</NavLink>
         <NavLink>
           <select name="" id="">
