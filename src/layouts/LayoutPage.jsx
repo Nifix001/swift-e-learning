@@ -8,7 +8,7 @@ const LayoutPage = () => {
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="Courses">Courses</NavLink>
-        <NavLink>
+        <NavLink to="pricing">
           <select name="" id="">
             <option value="">Pricing</option>
           </select>
