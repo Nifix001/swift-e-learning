@@ -13,7 +13,7 @@ const LayoutPage = () => {
             <option value="">Pricing</option>
           </select>
         </NavLink>
-        <NavLink>Testimonials</NavLink>
+        <NavLink to="">Testimonials</NavLink>
       </nav>
 
       <main>
