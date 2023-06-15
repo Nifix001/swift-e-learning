@@ -7,13 +7,13 @@ const LayoutPage = () => {
     <img src={logo} alt="logo" />
       <nav>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/courses">Courses</NavLink>
-        <NavLink to="/pricing">
+        <NavLink to="courses">Courses</NavLink>
+        <NavLink to="pricing">
           <select name="" id="">
             <option value="">Pricing</option>
           </select>
         </NavLink>
-        <NavLink to="/testimonials">Testimonials</NavLink>
+        <NavLink to="testimonials">Testimonials</NavLink>
       </nav>
 
       <main>
