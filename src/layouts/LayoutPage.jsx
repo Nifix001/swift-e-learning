@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import logo from "../assets/swift logo.jpg";
+import moon from "../assets/moon.jpg"
 
 const LayoutPage = () => {
   return (
@@ -15,6 +16,11 @@ const LayoutPage = () => {
         </NavLink>
         <NavLink to="testimonials">Testimonials</NavLink>
       </nav>
+      <div>
+        <img src={moon} alt="" />
+        <input type="text" placeholder="search for courses" />
+        <button>Search</button>
+      </div>
 
       <main>
         <Outlet/>
