@@ -2,20 +2,13 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Instructors from "./components/Instructors";
-import LayoutPage from "./layouts/LayoutPage";
 
+import Main from "./pages/Main";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LayoutPage />,
-    children: [
-      {
-        index: true,
-        element: <Instructors />,
-      }
-    ],
+    element: <Main />, 
   },
 ]);
 
