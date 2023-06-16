@@ -1,6 +1,7 @@
+import Apply from "../components/Apply"
 import Explore from "../components/Explore"
 import Instructors from "../components/Instructors"
-import LayoutPage from "../layouts/LayoutPage"
+import LayoutPage from "../components/LayoutPage"
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
           <LayoutPage />  
           <Instructors />
           <Explore />  
+          <Apply />
     </div>
   )
 }
