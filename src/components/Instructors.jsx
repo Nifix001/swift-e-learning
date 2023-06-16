@@ -24,6 +24,10 @@ const Instructors = () => {
         <div><img src={img5} alt="" /></div>
       </div>
 
+      <div>
+        
+      </div>
+
       <Outlet />
     </div>
   )
