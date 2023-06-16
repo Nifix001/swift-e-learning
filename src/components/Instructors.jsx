@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import star from "../assets/Group 5.jpg";
 import img from "../assets/Frame 1000001063.png";
 import img2 from "../assets/Frame 1000001064.png";
