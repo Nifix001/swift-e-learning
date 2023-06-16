@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import star from "../assets/Group 5.jpg"
 
 const Instructors = () => {
@@ -9,6 +10,7 @@ const Instructors = () => {
       <span><img src={star} alt="" /></span>
       <button>Start Learning</button>
 
+      <Outlet />
     </div>
   )
 }
