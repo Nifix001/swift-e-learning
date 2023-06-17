@@ -1,7 +1,7 @@
 import img from "../assets/IMAGE.png";
-import img1 from "../assets/IMAGE(1).png";
-import img2 from "../assets/IMAGE(2).png";
-import img3 from "../assets/IMAGE(3).png";
+import img1 from "../assets/IMAGE (1).png";
+import img2 from "../assets/IMAGE (2).png";
+import img3 from "../assets/IMAGE (3).png";
 
 const Instructors = () => {
   return (
