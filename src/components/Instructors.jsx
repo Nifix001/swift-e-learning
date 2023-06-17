@@ -1,4 +1,7 @@
-import img from "../assets/IMAGE.png"
+import img from "../assets/IMAGE.png";
+import img1 from "../assets/IMAGE(1).png";
+import img2 from "../assets/IMAGE(2).png";
+import img3 from "../assets/IMAGE(3).png";
 
 const Instructors = () => {
   return (
@@ -12,17 +15,17 @@ const Instructors = () => {
             <p></p>
         </div>
         <div>
-            <img src={} alt="" />
+            <img src={img1} alt="" />
             <h5></h5>
             <p></p>
         </div>
         <div>
-            <img src={} alt="" />
+            <img src={img2} alt="" />
             <h5></h5>
             <p></p>
         </div>
         <div>
-            <img src={} alt="" />
+            <img src={img3} alt="" />
             <h5></h5>
             <p></p>
         </div>
