@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import img from "../assets/IMAGE.png"
+import img from "../assets/Guy.png"
 
 const Apply = () => {
   return (

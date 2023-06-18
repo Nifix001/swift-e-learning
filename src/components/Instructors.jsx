@@ -11,23 +11,23 @@ const Instructors = () => {
       <div>
         <div>
             <img src={img} alt="" />
-            <h5></h5>
-            <p></p>
+            <h3>Sobowale Goodluck</h3>
+            <p>UI/UX Design Instructor</p>
         </div>
         <div>
             <img src={img1} alt="" />
-            <h5></h5>
-            <p></p>
+            <h3>David Ogbodo</h3>
+            <p>Data Analysis Instructor</p>
         </div>
         <div>
             <img src={img2} alt="" />
-            <h5></h5>
-            <p></p>
+            <h3>Aje Success</h3>
+            <p>Backend Instructor</p>
         </div>
         <div>
             <img src={img3} alt="" />
-            <h5></h5>
-            <p></p>
+            <h3>Sumisola Adeyanju</h3>
+            <p>Frontend Instructor</p>
         </div>
       </div>
     </div>
