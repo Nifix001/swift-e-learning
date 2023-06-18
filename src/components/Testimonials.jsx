@@ -22,9 +22,10 @@ const Testimonials = () => {
                     </div>
                     <i></i>
                 </div>
-                I have been using this e-learning platform for <br />a few months now and have already seen <br />significant improvement in my skills. The <br />courses are well-structured and easy to <br />follow, and the feedback from instructors is <br />invaluable.
+                <p>I have been using this e-learning platform for <br />a few months now and have already seen <br />significant improvement in my skills. The <br />courses are well-structured and easy to <br />follow, and the feedback from instructors is <br />invaluable.</p>
             </div>    
-        </div>      
+        </div>
+        <button>Apply Now</button>      
     </div>
   )
 }
