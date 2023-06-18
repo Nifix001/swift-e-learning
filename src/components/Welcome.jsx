@@ -5,7 +5,7 @@ import img3 from "../assets/Frame 1000001065.png";
 import img4 from "../assets/Frame 1000001066.png";
 import img5 from "../assets/Frame 1000001067.png";
 
-const Instructors = () => {
+const Welcome = () => {
   return (
     <div>
       <span><img src={star} alt="" /></span>
@@ -29,4 +29,4 @@ const Instructors = () => {
   )
 }
 
-export default Instructors
+export default Welcome
