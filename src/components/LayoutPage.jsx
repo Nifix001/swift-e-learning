@@ -5,7 +5,7 @@ import moon from "../assets/moon.jpg"
 const LayoutPage = () => {
   return (
     <div>
-      <header classname="layout">
+    <header>
     <img src={logo} alt="logo" />
       <nav className="header">
         <NavLink to="/">Home</NavLink>

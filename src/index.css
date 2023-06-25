@@ -13,12 +13,14 @@
     height: 100vh;
   }
 
-  .layout{
+  header{
     display: flex;
     flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
   }
 
-  .header{
-    display: flex;
-    flex-direction: row;
+  header > img{
+    width: 150px;
+    height: 40px;
   }
