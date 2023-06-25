@@ -4,7 +4,8 @@ import moon from "../assets/moon.jpg"
 
 const LayoutPage = () => {
   return (
-    <div classname="layout">
+    <div>
+      <header classname="layout">
     <img src={logo} alt="logo" />
       <nav className="header">
         <NavLink to="/">Home</NavLink>
@@ -21,6 +22,7 @@ const LayoutPage = () => {
         <input type="text" placeholder="search for courses" />
         <button>Search</button>
       </div>
+      </header>
 
       <main>
         <Outlet/>

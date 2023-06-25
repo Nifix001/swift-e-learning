@@ -16,4 +16,9 @@
   .layout{
     display: flex;
     flex-direction: row;
-  }  
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+  }
