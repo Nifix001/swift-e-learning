@@ -6,7 +6,7 @@ const LayoutPage = () => {
   return (
     <div classname="layout">
     <img src={logo} alt="logo" />
-      <nav>
+      <nav className="header">
         <NavLink to="/">Home</NavLink>
         <NavLink to="courses">Courses</NavLink>
         <NavLink to="pricing">
